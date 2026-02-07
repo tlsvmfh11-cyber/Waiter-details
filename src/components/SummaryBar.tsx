@@ -90,11 +90,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
+    paddingHorizontal: 12,
     paddingTop: 8,
+    flexWrap: 'wrap',
+    gap: 6,
   },
   totalInfo: {
-    flex: 1,
+    flexShrink: 1,
+    minWidth: 0,
   },
   totalLabel: {
     color: COLORS.textSecondary,
@@ -102,7 +105,7 @@ const styles = StyleSheet.create({
   },
   totalValue: {
     color: COLORS.warning,
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '800',
   },
   btnRow: {
@@ -112,8 +115,8 @@ const styles = StyleSheet.create({
   resetBtn: {
     backgroundColor: COLORS.danger + '30',
     borderRadius: 10,
-    paddingHorizontal: 14,
-    paddingVertical: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
   },
   resetBtnText: {
     color: COLORS.danger,
@@ -123,8 +126,8 @@ const styles = StyleSheet.create({
   copyBtn: {
     backgroundColor: COLORS.copyBtn,
     borderRadius: 10,
-    paddingHorizontal: 20,
-    paddingVertical: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
   },
   copyBtnText: {
     color: '#fff',

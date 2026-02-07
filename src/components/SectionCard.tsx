@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 16,
-    paddingVertical: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
     borderBottomWidth: 1,
     borderBottomColor: COLORS.divider,
   },
@@ -73,6 +73,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   content: {
-    padding: 12,
+    padding: 10,
   },
 });

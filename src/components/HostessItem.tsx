@@ -256,7 +256,8 @@ const styles = StyleSheet.create({
   countRow: {
     flexDirection: 'row',
     alignItems: 'flex-end',
-    gap: 12,
+    flexWrap: 'wrap',
+    gap: 10,
   },
   countLeft: {
     alignItems: 'center',
@@ -316,6 +317,7 @@ const styles = StyleSheet.create({
   },
   amountBox: {
     flex: 1,
+    minWidth: 120,
   },
   amountInputRow: {
     flexDirection: 'row',

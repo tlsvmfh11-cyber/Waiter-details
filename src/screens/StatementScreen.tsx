@@ -516,15 +516,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollContent: {
-    padding: 12,
+    paddingHorizontal: 10,
+    paddingTop: 10,
     paddingBottom: 20,
   },
   infoRow: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: 8,
   },
   inputGroup: {
-    flex: 1,
+    flexBasis: '47%',
+    flexGrow: 1,
+    minWidth: 0,
   },
   label: {
     color: COLORS.textSecondary,

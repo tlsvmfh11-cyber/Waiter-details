@@ -295,6 +295,7 @@ const styles = StyleSheet.create({
   },
   userActions: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: 8,
   },
   actionBtn: {
@@ -319,6 +320,7 @@ const styles = StyleSheet.create({
   pwEditRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    flexWrap: 'wrap',
     gap: 8,
   },
   pwInput: {

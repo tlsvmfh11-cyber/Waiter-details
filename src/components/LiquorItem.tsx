@@ -123,10 +123,12 @@ const styles = StyleSheet.create({
   bottomRow: {
     flexDirection: 'row',
     alignItems: 'flex-end',
-    gap: 10,
+    flexWrap: 'wrap',
+    gap: 8,
   },
   priceBox: {
     flex: 1,
+    minWidth: 100,
   },
   priceLabel: {
     color: COLORS.textSecondary,
@@ -159,7 +161,8 @@ const styles = StyleSheet.create({
   },
   totalBox: {
     alignItems: 'flex-end',
-    minWidth: 80,
+    minWidth: 70,
+    flexShrink: 0,
   },
   totalLabel: {
     color: COLORS.textSecondary,
