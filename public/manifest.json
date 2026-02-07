@@ -1,0 +1,23 @@
+{
+  "name": "웨이터 내역서",
+  "short_name": "내역서",
+  "description": "웨이터 내역서 관리 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f0f1a",
+  "theme_color": "#0f0f1a",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}
