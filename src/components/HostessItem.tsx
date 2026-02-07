@@ -241,17 +241,16 @@ const styles = StyleSheet.create({
     padding: 12,
     borderTopWidth: 1,
     borderTopColor: COLORS.divider,
+    overflow: 'hidden',
   },
   timeRow: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    gap: 8,
+    gap: 6,
     marginBottom: 12,
   },
   timeSep: {
     color: COLORS.textSecondary,
-    fontSize: 18,
-    paddingBottom: 10,
+    fontSize: 14,
+    textAlign: 'center',
   },
   countRow: {
     flexDirection: 'row',
@@ -327,15 +326,16 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: COLORS.inputBorder,
     paddingHorizontal: 10,
-    height: 38,
+    height: 44,
   },
   amountInputFocused: {
     borderColor: COLORS.primary,
   },
   amountInput: {
     flex: 1,
+    minWidth: 0,
     color: COLORS.text,
-    fontSize: 15,
+    fontSize: 16,
     padding: 0,
   },
   amountSuffix: {

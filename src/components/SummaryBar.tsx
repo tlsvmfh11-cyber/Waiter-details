@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.totalBg,
     borderTopWidth: 1,
     borderTopColor: COLORS.cardBorder,
-    paddingBottom: 20,
+    paddingBottom: 34,
   },
   itemsRow: {
     flexDirection: 'row',

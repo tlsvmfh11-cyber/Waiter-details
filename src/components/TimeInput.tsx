@@ -154,7 +154,7 @@ export default function TimeInput({
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    overflow: 'hidden',
   },
   label: {
     color: COLORS.textSecondary,
@@ -169,10 +169,12 @@ const styles = StyleSheet.create({
   ampmGroup: {
     flexDirection: 'column',
     gap: 2,
+    width: 64,
+    flexShrink: 0,
   },
   ampmBtn: {
-    paddingHorizontal: 6,
-    paddingVertical: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
     borderRadius: 4,
     backgroundColor: COLORS.inputBg,
     borderWidth: 1,
@@ -184,7 +186,7 @@ const styles = StyleSheet.create({
   },
   ampmText: {
     color: COLORS.textMuted,
-    fontSize: 11,
+    fontSize: 12,
     fontWeight: '600',
     textAlign: 'center',
   },
@@ -193,6 +195,7 @@ const styles = StyleSheet.create({
   },
   inputRow: {
     flex: 1,
+    minWidth: 0,
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: COLORS.inputBg,
